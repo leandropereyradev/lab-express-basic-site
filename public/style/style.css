@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(29, 29, 29);
+  color: aliceblue;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 1fr 1fr 10fr 1fr;
+  font-family: Arial;
+}
+
+nav {
+  padding: 1rem 0 0 1rem;
+}
+
+a {
+  text-decoration: none;
+  padding: 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.template {
+  text-align: center;
+}
+
+.about p {
+  text-align: justify;
+  width: 900px;
+}
+
+.card {
+  border-radius: 10px;
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  row-gap: 1rem;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+}
+
+.img-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
+}
+
+.img {
+  background-color: initial;
+}
+
+.card a {
+  font-size: 2rem;
+  background-color: rgb(31, 31, 31);
+  border-radius: 10px;
+  padding: 0.5rem 0;
+  transition: all 0.2s ease-in-out
+}
+
+.card a:hover {
+  scale: 1.1;
+}
+
+.card p {
+  background-color: initial;
+  font-size: 1rem;
+  margin-bottom: unset;
+}
+
+.card h3 {
+  background-color: initial;
+}
+
+.photos-container {
+  margin-bottom: 5rem;
+}
+
+.photos-container img {
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+footer p {
+  text-align: center;
+  padding: 1rem 0;
+  margin-bottom: unset;
+  font-size: 1rem;
+}
